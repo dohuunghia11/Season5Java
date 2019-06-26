@@ -29,7 +29,8 @@ public class CircleComparatorTest {
             System.out.println(circle);
         }
         System.out.println("Area Pre-resized : " + circles[1].getArea());
-        circles[1].resize(5);
+        long percent = Math.round(Math.random() * 100);
+        circles[1].resize(percent);
         System.out.println("Area After-resized : " + circles[1].getArea());
     }
 }

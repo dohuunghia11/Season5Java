@@ -1,6 +1,6 @@
 package Comparator;
 
-public class Circle extends Shape implements Resizeable{
+public class Circle extends Shape {
     private double radius = 1.0;
 
     public Circle() {
